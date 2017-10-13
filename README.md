@@ -14,10 +14,15 @@
 
 First clone the project down.
 
+```bash
+git clone git@github.com:jyork03/sdc-basic-lane-detection.git
+```
+
 Running it with Docker:
+
 ```bash
 docker pull udacity/carnd-term1-starter-kit
-cd project/directory
+cd ./sdc-basic-lane-detection
 docker run -it --rm -v `pwd`:/src -p 8888:8888 udacity/carnd-term1-starter-kit
 ```
 
@@ -40,4 +45,4 @@ located in `./test_images` and `./test_videos` respectively.  The modified image
 `./test_images_output` and `./test_videos_output`.
 
 If you wish to read a description of how the algorithm works, as well as shortcoming and ideas for improvement,
-please read writeup.md.
+please read [writeup.md](https://github.com/jyork03/sdc-basic-lane-detection/blob/master/writeup.md).
